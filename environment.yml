@@ -13,9 +13,9 @@ dependencies:
   - bleach=4.1.0=pyhd8ed1ab_0
   - brotli=1.0.9=ha925a31_2
   - brotlipy=0.7.0=py39h2bbff1b_1003
-  - ca-certificates=2021.10.8=h5b45459_0
+  - ca-certificates=2021.10.26=haa95532_2
   - catalogue=2.0.6=py39hcbf5309_1
-  - certifi=2021.10.8=py39hcbf5309_1
+  - certifi=2021.10.8=py39haa95532_2
   - cffi=1.15.0=py39h0878f49_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - click=8.0.3=pyhd3eb1b0_0
@@ -73,6 +73,7 @@ dependencies:
   - msys2-conda-epoch=20160418=1
   - munkres=1.1.4=py_0
   - murmurhash=1.0.6=py39h415ef7b_2
+  - nb_conda_kernels=2.3.1=py39haa95532_0
   - nbclient=0.5.9=pyhd8ed1ab_0
   - nbconvert=6.3.0=py39hcbf5309_1
   - nbformat=5.1.3=pyhd8ed1ab_0
@@ -82,7 +83,7 @@ dependencies:
   - numpy=1.21.2=py39hfca59bb_0
   - numpy-base=1.21.2=py39h0829f74_0
   - olefile=0.46=pyhd3eb1b0_0
-  - openssl=1.1.1l=h8ffe710_0
+  - openssl=1.1.1m=h2bbff1b_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandoc=2.16.2=h8ffe710_0
   - pandocfilters=1.5.0=pyhd8ed1ab_0
@@ -156,12 +157,17 @@ dependencies:
     - filelock==3.4.2
     - gsdmm==0.1
     - huggingface-hub==0.4.0
+    - protobuf==3.19.3
     - pyyaml==6.0
     - sacremoses==0.0.47
+    - sentence-transformers==2.1.0
+    - sentencepiece==0.1.96
     - spacy-alignments==0.8.4
+    - spacy-sentence-bert==0.1.2
     - spacy-transformers==1.1.4
     - tokenizers==0.10.3
     - torch==1.10.1
+    - torchvision==0.11.2
     - transformers==4.15.0
     - wordninja==2.0.0
 prefix: C:\Users\viche\miniconda3\envs\scikit
